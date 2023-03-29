@@ -341,7 +341,7 @@ export const sendpasswordlink = async (req, res) => {
           from: process.env.NODEMAILER_FROM,
           to: email,
           subject: "Sending `Email For password Reset",
-          text: `This link valid for 2 minutes http://localhost:3000/forgotpassword/${userfind.id}/${setusertoken.verifytoken}`,
+          text: `This link valid for 2 minutes https://master.dchkivesupqwe.amplifyapp.com/forgotpassword/${userfind.id}/${setusertoken.verifytoken}`,
         }
 
     
